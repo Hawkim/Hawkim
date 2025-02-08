@@ -1,5 +1,3 @@
-<div style="background-color: #1e1e2e; color: #ffffff; padding: 20px; border-radius: 10px;">
-
 <div align="center">
   <h1>Welcome to My GitHub Profile! 👋</h1>
 </div>
@@ -11,6 +9,7 @@
 </div>
 
 ## About Me
+**42 Beirut Student**  
 I'm a passionate developer who likes coding and contributing to open-source projects. Feel free to explore my repositories! 🚀
 
 ### Skills
@@ -25,22 +24,13 @@ Here are some of the technologies and tools I work with:
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-
 ### Top Languages
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hawkim&layout=compact&theme=radical)
-
-### Projects
-Here are some of my notable projects:
-- [Project 1](#): A brief description of Project 1.
-- [Project 2](#): A brief description of Project 2.
-- [Project 3](#): A brief description of Project 3.
 
 ### Contact Me
 📫 You can reach out to me at [neilhakim7@gmail.com](mailto:neilhakim7@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/neil-al-hakim-39931a219/).
 
 <div align="center">
   <h3>Thanks for visiting! 😄</h3>
-(https://visitor-badge.glitch.me/badge?page_id=hawkim) 
-</div>
-
+  ![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=hawkim.hawkim)
 </div>
