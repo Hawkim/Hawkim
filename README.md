@@ -32,5 +32,5 @@ Here are some of the technologies and tools I work with:
 
 <div align="center">
   <h3>Thanks for visiting! 😄</h3>
-  ![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=hawkim.hawkim)
+
 </div>
