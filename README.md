@@ -9,7 +9,7 @@
 </div>
 
 ## About Me
-**42 Beirut Student**  
+**42 Student  / Software Developer**  
 I'm a passionate developer who likes coding and contributing to open-source projects. Feel free to explore my repositories! 🚀
 
 ### Skills
