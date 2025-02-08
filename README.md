@@ -40,7 +40,7 @@ Here are some of my notable projects:
 
 <div align="center">
   <h3>Thanks for visiting! 😄</h3>
-![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=Hawkim.README.md) 
+(https://visitor-badge.glitch.me/badge?page_id=hawkim) 
 </div>
 
 </div>
