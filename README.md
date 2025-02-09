@@ -32,4 +32,9 @@ Here are some of the technologies and tools I work with:
 <div align="center">
   <h3>Thanks for visiting! 😄</h3>
 
+  <p align = "center">
+	<img src="https://komarev.com/ghpvc/?username=hawkim&style=plastic&color=red" alt="Profile Views"/>
+
+</p>
+
 </div>
