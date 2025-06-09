@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-   • <strong>Software Developer</strong><strong>42 School Student</strong> • <strong>Open-Source Advocate</strong>
+   • <strong>Software Developer</strong> - <strong>42 School Student</strong> • <strong>Open-Source Advocate</strong>
 </p>
 
 ---
