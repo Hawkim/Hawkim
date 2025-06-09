@@ -3,15 +3,34 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <!-- Redirect immediately to your Solana URI -->
-  <meta http-equiv="refresh" content="0;url=solana:53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD" />
   <title>Donate SOL</title>
+
+  <meta http-equiv="refresh" content="0;url=solana:53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD" />
+  <script>
+    window.onload = function() {
+      window.location.href = "solana:53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD";
+    };
+  </script>
+
+  <style>
+    body { font-family: sans-serif; text-align: center; padding: 2rem; }
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6em 1.2em;
+      background: #00FFA3;
+      color: black;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+  </style>
 </head>
 <body>
-  <p style="font-family: sans-serif; text-align: center; margin-top: 2rem;">
-    🔄 Redirecting to your wallet…<br/>
-    If nothing happens, <a href="solana:53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD">
-    click here</a>.
-  </p>
+  <h1>🔄 Redirecting to your wallet…</h1>
+  <p>If nothing happens,</p>
+  <a class="button" href="solana:53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD">
+    Click here to Donate SOL
+  </a>
 </body>
 </html>
