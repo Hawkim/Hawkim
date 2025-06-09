@@ -11,7 +11,7 @@
 
 ## 🚀 About Me
 
-I’m a passionate problem-solver and dedicated open-source contributor, currently honing my skills at 42 School. I love tackling challenging projects, exploring new technologies, and collaborating with talented developers worldwide.
+I’m a passionate software developer and problem-solver. Dedicated open-source contributor, currently sharpening my skills at 42 Beirut. I love tackling challenging projects, exploring new technologies, and collaborating with talented developers worldwide.
 
 ---
 
@@ -43,30 +43,24 @@ I’m a passionate problem-solver and dedicated open-source contributor, current
 Support my open-source work:
 
 <p align="center">
-  <a href="https://hawkim.github.io/Hawkim/donate-btc.html"
-     target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Donate-Bitcoin-ff9900?logo=bitcoin&logoColor=white"
-         alt="Donate Bitcoin" />
+  <a href="https://hawkim.github.io/Hawkim/donate-btc.html" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Donate-Bitcoin-ff9900?logo=bitcoin&logoColor=white" alt="Donate Bitcoin" />
   </a>
   &nbsp;
-  <a href="https://hawkim.github.io/Hawkim/donate-eth.html"
-     target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Donate-Ethereum-627eea?logo=ethereum&logoColor=white"
-         alt="Donate Ethereum" />
+  <a href="https://hawkim.github.io/Hawkim/donate-eth.html" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Donate-Ethereum-627eea?logo=ethereum&logoColor=white" alt="Donate Ethereum" />
   </a>
   &nbsp;
-  <a href="https://hawkim.github.io/Hawkim/donate-sol.html"
-     target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Donate-Solana-00FFA3?logo=solana&logoColor=white"
-         alt="Donate Solana" />
+  <a href="https://hawkim.github.io/Hawkim/donate-sol.html" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Donate-Solana-00FFA3?logo=solana&logoColor=white" alt="Donate Solana" />
   </a>
   &nbsp;
-  <a href="https://hawkim.github.io/Hawkim/donate-usdt.html"
-     target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Donate-USDT-26A17B?logo=tether&logoColor=white"
-         alt="Donate USDT (TRC-20)" />
+  <a href="https://hawkim.github.io/Hawkim/donate-usdt.html" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Donate-USDT-26A17B?logo=tether&logoColor=white" alt="Donate USDT (TRC-20)" />
   </a>
 </p>
+
+---
 
 ## 📫 Contact Me
 
