@@ -1,40 +1,59 @@
 <div align="center">
-  <h1>Welcome to My GitHub Profile! 👋</h1>
+  <h1>👋 Hello, I'm Neil Al Hakim</h1>
+  <img src="https://badge.mediaplus.ma/binary/nal-haki" alt="nal-haki's 42 stats" />
 </div>
 
-<div align="center">
-    <img src="https://badge.mediaplus.ma/binary/nal-haki" alt="nal-haki's 42 stats" />
-
-</div>
-
-## About Me
-**42 Student  / Software Developer**  
-I'm a passionate developer who likes coding and contributing to open-source projects. Feel free to explore my repositories! 🚀
-
-### Skills
-Here are some of the technologies and tools I work with:
-
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-### Top Languages
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hawkim&layout=compact&theme=radical)
-
-### Contact Me
-📫 You can reach out to me at [neilhakim7@gmail.com](mailto:neilhakim7@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/neil-al-hakim-39931a219/).
-
-<div align="center">
-  <h3>Thanks for visiting! 😄</h3>
-
-  <p align = "center">
-	<img src="https://komarev.com/ghpvc/?username=hawkim&style=plastic&color=red" alt="Profile Views"/>
-
+<p align="center">
+  <strong>42 Student</strong> • <strong>Software Developer</strong> • <strong>Open-Source Enthusiast</strong>
 </p>
 
+---
+
+## 🚀 About Me
+
+I’m a passionate developer with a knack for solving problems and contributing to open-source projects. Currently honing my skills at 42, I love collaborating on innovative code and learning new technologies every day.
+
+---
+
+## 🛠️ Skills
+
+<p>
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
+</p>
+
+---
+
+## 📊 Top Languages
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hawkim&layout=compact&theme=radical)
+
+---
+
+## ☕ Crypto Donations
+
+If you’d like to support my open-source work, you can send a small donation in crypto:
+
+[![Donate $BTC](https://img.shields.io/badge/Donate-Bitcoin-ff9900?logo=bitcoin&logoColor=white)](bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw)  
+[![Donate $ETH](https://img.shields.io/badge/Donate-Ethereum-627eea?logo=ethereum&logoColor=white)](ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b)  
+[![Donate $SOL](https://img.shields.io/badge/Donate-Solana-00FFA3?logo=solana&logoColor=white)](solana:53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD)
+
+---
+
+## 📫 Contact Me
+
+- **Email:** [neilhakim7@gmail.com](mailto:neilhakim7@gmail.com)  
+- **LinkedIn:** [Neil Al Hakim](https://www.linkedin.com/in/neil-al-hakim-39931a219/)
+
+---
+
+<div align="center">
+  <h3>Thanks for stopping by! 😊</h3>
+  <img src="https://komarev.com/ghpvc/?username=hawkim&style=plastic&color=red" alt="Profile Views"/>
 </div>
