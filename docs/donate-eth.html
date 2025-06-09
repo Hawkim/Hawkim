@@ -2,21 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Donate BTC</title>
+  <title>Donate ETH</title>
 
   <script>
     window.onload = function() {
-      window.location.href = "bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw";
+      window.location.href = "ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b";
     };
     function copyAddress(btn) {
-      const addr = "1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw";
+      const addr = "0x117716dd3dafca8a4636fc7a0dd16b37abdc593b";
       navigator.clipboard.writeText(addr);
       btn.textContent = "Copied";
       btn.style.background = "#888";
       btn.disabled = true;
     }
   </script>
-  <meta http-equiv="refresh" content="0;url=bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw" />
+  <meta http-equiv="refresh" content="0;url=ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b" />
 
   <style>
     body {
@@ -40,7 +40,7 @@
       margin-left: 0.5rem;
       padding: 0.4em 0.8em;
       border: none;
-      background: #ff9900;
+      background: #627eea;
       color: white;
       border-radius: 4px;
       cursor: pointer;
@@ -60,5 +60,17 @@
   </style>
 </head>
 <body>
-  <img class="logo" src="https://cryptologos.cc/logos/bitcoin-btc-logo.png?v=014" alt="BTC Logo">
-  <div
+  <img class="logo" src="https://cryptologos.cc/logos/ethereum-eth-logo.png?v=014" alt="ETH Logo">
+  <div class="network"><strong>NETWORK:</strong> ERC-20</div>
+
+  <div class="address-container">
+    <code>0x117716dd3dafca8a4636fc7a0dd16b37abdc593b</code>
+    <button onclick="copyAddress(this)">Copy</button>
+  </div>
+
+  <div class="qr">
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b"
+         alt="ETH QR Code">
+  </div>
+</body>
+</html>
