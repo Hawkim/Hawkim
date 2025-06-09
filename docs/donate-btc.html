@@ -3,23 +3,19 @@
 <head>
   <meta charset="utf-8" />
   <title>Donate BTC</title>
-  
-  <!-- Redirect on load -->
   <script>
     window.onload = function() {
       window.location.href = "bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw";
     };
-    function copyAddress() {
-      const addr = "bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw";
-      navigator.clipboard.writeText(addr).then(() => {
-        alert("Address copied to clipboard!");
-      });
+    function copyAddress(btn) {
+      const addr = "1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw";
+      navigator.clipboard.writeText(addr);
+      btn.textContent = "Copied";
+      btn.style.background = "#888";
+      btn.disabled = true;
     }
   </script>
-
-  <!-- Meta‐refresh fallback -->
   <meta http-equiv="refresh" content="0;url=bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw" />
-
   <style>
     body { font-family: sans-serif; text-align: center; padding: 2rem; }
     .address-container { margin: 1.5rem 0; }
@@ -33,7 +29,7 @@
       border-radius: 4px;
       cursor: pointer;
     }
-    button:hover { opacity: 0.9; }
+    button:disabled { cursor: default; }
     .qr { margin-top: 1rem; }
   </style>
 </head>
@@ -42,8 +38,8 @@
   <p>If nothing happens, use the info below:</p>
 
   <div class="address-container">
-    <code id="address">bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw</code>
-    <button onclick="copyAddress()">Copy</button>
+    <code>1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw</code>
+    <button onclick="copyAddress(this)">Copy</button>
   </div>
 
   <div class="qr">

@@ -3,21 +3,19 @@
 <head>
   <meta charset="utf-8" />
   <title>Donate ETH</title>
-  
   <script>
     window.onload = function() {
       window.location.href = "ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b";
     };
-    function copyAddress() {
-      const addr = "ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b";
-      navigator.clipboard.writeText(addr).then(() => {
-        alert("Address copied to clipboard!");
-      });
+    function copyAddress(btn) {
+      const addr = "0x117716dd3dafca8a4636fc7a0dd16b37abdc593b";
+      navigator.clipboard.writeText(addr);
+      btn.textContent = "Copied";
+      btn.style.background = "#888";
+      btn.disabled = true;
     }
   </script>
-
   <meta http-equiv="refresh" content="0;url=ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b" />
-
   <style>
     body { font-family: sans-serif; text-align: center; padding: 2rem; }
     .address-container { margin: 1.5rem 0; }
@@ -31,7 +29,7 @@
       border-radius: 4px;
       cursor: pointer;
     }
-    button:hover { opacity: 0.9; }
+    button:disabled { cursor: default; }
     .qr { margin-top: 1rem; }
   </style>
 </head>
@@ -40,8 +38,8 @@
   <p>If nothing happens, use the info below:</p>
 
   <div class="address-container">
-    <code id="address">ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b</code>
-    <button onclick="copyAddress()">Copy</button>
+    <code>0x117716dd3dafca8a4636fc7a0dd16b37abdc593b</code>
+    <button onclick="copyAddress(this)">Copy</button>
   </div>
 
   <div class="qr">

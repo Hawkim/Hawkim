@@ -3,21 +3,19 @@
 <head>
   <meta charset="utf-8" />
   <title>Donate SOL</title>
-  
   <script>
     window.onload = function() {
       window.location.href = "solana:53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD";
     };
-    function copyAddress() {
-      const addr = "solana:53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD";
-      navigator.clipboard.writeText(addr).then(() => {
-        alert("Address copied to clipboard!");
-      });
+    function copyAddress(btn) {
+      const addr = "53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD";
+      navigator.clipboard.writeText(addr);
+      btn.textContent = "Copied";
+      btn.style.background = "#888";
+      btn.disabled = true;
     }
   </script>
-
   <meta http-equiv="refresh" content="0;url=solana:53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD" />
-
   <style>
     body { font-family: sans-serif; text-align: center; padding: 2rem; }
     .address-container { margin: 1.5rem 0; }
@@ -31,7 +29,7 @@
       border-radius: 4px;
       cursor: pointer;
     }
-    button:hover { opacity: 0.9; }
+    button:disabled { cursor: default; }
     .qr { margin-top: 1rem; }
   </style>
 </head>
@@ -40,8 +38,8 @@
   <p>If nothing happens, use the info below:</p>
 
   <div class="address-container">
-    <code id="address">solana:53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD</code>
-    <button onclick="copyAddress()">Copy</button>
+    <code>53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD</code>
+    <button onclick="copyAddress(this)">Copy</button>
   </div>
 
   <div class="qr">
