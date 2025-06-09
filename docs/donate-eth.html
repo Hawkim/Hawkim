@@ -1,40 +1,54 @@
-<!-- docs/donate-eth.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <title>Donate ETH</title>
-
-  <!-- Meta‐refresh fallback -->
-  <meta http-equiv="refresh" content="0;url=ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b" />
   
-  <!-- JS redirect for better compatibility -->
   <script>
     window.onload = function() {
-      // try the wallet deep‐link
       window.location.href = "ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b";
     };
+    function copyAddress() {
+      const addr = "ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b";
+      navigator.clipboard.writeText(addr).then(() => {
+        alert("Address copied to clipboard!");
+      });
+    }
   </script>
+
+  <meta http-equiv="refresh" content="0;url=ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b" />
 
   <style>
     body { font-family: sans-serif; text-align: center; padding: 2rem; }
-    a.button {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.6em 1.2em;
+    .address-container { margin: 1.5rem 0; }
+    code { padding: 0.2em 0.4em; background: #f4f4f4; border-radius: 4px; }
+    button {
+      margin-left: 0.5rem;
+      padding: 0.4em 0.8em;
+      border: none;
       background: #627eea;
       color: white;
-      text-decoration: none;
       border-radius: 4px;
-      font-size: 1rem;
+      cursor: pointer;
     }
+    button:hover { opacity: 0.9; }
+    .qr { margin-top: 1rem; }
   </style>
 </head>
 <body>
   <h1>🔄 Redirecting to your wallet…</h1>
-  <p>If nothing happens,</p>
-  <a class="button" href="ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b">
-    Click here to Donate ETH
-  </a>
+  <p>If nothing happens, use the info below:</p>
+
+  <div class="address-container">
+    <code id="address">ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b</code>
+    <button onclick="copyAddress()">Copy</button>
+  </div>
+
+  <div class="qr">
+    <img
+      src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b"
+      alt="ETH QR Code"
+    />
+  </div>
 </body>
 </html>

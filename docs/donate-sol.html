@@ -1,36 +1,54 @@
-<!-- docs/donate-sol.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <title>Donate SOL</title>
-
-  <meta http-equiv="refresh" content="0;url=solana:53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD" />
+  
   <script>
     window.onload = function() {
       window.location.href = "solana:53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD";
     };
+    function copyAddress() {
+      const addr = "solana:53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD";
+      navigator.clipboard.writeText(addr).then(() => {
+        alert("Address copied to clipboard!");
+      });
+    }
   </script>
+
+  <meta http-equiv="refresh" content="0;url=solana:53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD" />
 
   <style>
     body { font-family: sans-serif; text-align: center; padding: 2rem; }
-    a.button {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.6em 1.2em;
+    .address-container { margin: 1.5rem 0; }
+    code { padding: 0.2em 0.4em; background: #f4f4f4; border-radius: 4px; }
+    button {
+      margin-left: 0.5rem;
+      padding: 0.4em 0.8em;
+      border: none;
       background: #00FFA3;
       color: black;
-      text-decoration: none;
       border-radius: 4px;
-      font-size: 1rem;
+      cursor: pointer;
     }
+    button:hover { opacity: 0.9; }
+    .qr { margin-top: 1rem; }
   </style>
 </head>
 <body>
   <h1>🔄 Redirecting to your wallet…</h1>
-  <p>If nothing happens,</p>
-  <a class="button" href="solana:53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD">
-    Click here to Donate SOL
-  </a>
+  <p>If nothing happens, use the info below:</p>
+
+  <div class="address-container">
+    <code id="address">solana:53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD</code>
+    <button onclick="copyAddress()">Copy</button>
+  </div>
+
+  <div class="qr">
+    <img
+      src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=solana:53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD"
+      alt="SOL QR Code"
+    />
+  </div>
 </body>
 </html>

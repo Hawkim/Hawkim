@@ -1,36 +1,56 @@
-<!-- docs/donate-btc.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <title>Donate BTC</title>
-
-  <meta http-equiv="refresh" content="0;url=bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw" />
+  
+  <!-- Redirect on load -->
   <script>
     window.onload = function() {
       window.location.href = "bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw";
     };
+    function copyAddress() {
+      const addr = "bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw";
+      navigator.clipboard.writeText(addr).then(() => {
+        alert("Address copied to clipboard!");
+      });
+    }
   </script>
+
+  <!-- Meta‐refresh fallback -->
+  <meta http-equiv="refresh" content="0;url=bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw" />
 
   <style>
     body { font-family: sans-serif; text-align: center; padding: 2rem; }
-    a.button {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.6em 1.2em;
+    .address-container { margin: 1.5rem 0; }
+    code { padding: 0.2em 0.4em; background: #f4f4f4; border-radius: 4px; }
+    button {
+      margin-left: 0.5rem;
+      padding: 0.4em 0.8em;
+      border: none;
       background: #ff9900;
       color: white;
-      text-decoration: none;
       border-radius: 4px;
-      font-size: 1rem;
+      cursor: pointer;
     }
+    button:hover { opacity: 0.9; }
+    .qr { margin-top: 1rem; }
   </style>
 </head>
 <body>
   <h1>🔄 Redirecting to your wallet…</h1>
-  <p>If nothing happens,</p>
-  <a class="button" href="bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw">
-    Click here to Donate BTC
-  </a>
+  <p>If nothing happens, use the info below:</p>
+
+  <div class="address-container">
+    <code id="address">bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw</code>
+    <button onclick="copyAddress()">Copy</button>
+  </div>
+
+  <div class="qr">
+    <img
+      src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw"
+      alt="BTC QR Code"
+    />
+  </div>
 </body>
 </html>
