@@ -1,59 +1,73 @@
 <div align="center">
-  <h1>👋 Hello, I'm Neil Al Hakim</h1>
-  <img src="https://badge.mediaplus.ma/binary/nal-haki" alt="nal-haki's 42 stats" />
+  <h1>👋 Hello, I’m Neil Al Hakim</h1>
+  <img src="https://badge.mediaplus.ma/binary/nal-haki" alt="42 School stats for nal-haki" />
 </div>
 
 <p align="center">
-  <strong>42 Student</strong> • <strong>Software Developer</strong> • <strong>Open-Source Enthusiast</strong>
+  <strong>42 School Student</strong> • <strong>Software Engineer</strong> • <strong>Open-Source Advocate</strong>
 </p>
 
 ---
 
 ## 🚀 About Me
 
-I’m a passionate developer with a knack for solving problems and contributing to open-source projects. Currently honing my skills at 42, I love collaborating on innovative code and learning new technologies every day.
+I’m a passionate problem-solver and dedicated open-source contributor, currently honing my skills at 42 School. I love tackling challenging projects, exploring new technologies, and collaborating with talented developers worldwide.
 
 ---
 
 ## 🛠️ Skills
 
-<p>
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
+<p align="center">
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
 </p>
 
 ---
 
 ## 📊 Top Languages
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hawkim&layout=compact&theme=radical)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hawkim&layout=compact&theme=radical" alt="Top languages" />
+</p>
 
 ---
 
 ## ☕ Crypto Donations
 
-Support my work:
+Support my open-source work by choosing your preferred donation method:
 
-[![Donate $ETH](https://img.shields.io/badge/Donate-Ethereum-627eea?logo=ethereum)](https://hawkim.github.io/Hawkim/donate-eth.html)  
-[![Donate $SOL](https://img.shields.io/badge/Donate-Solana-00FFA3?logo=solana)](https://hawkim.github.io/Hawkim/donate-sol.html)  
-[![Donate $BTC](https://img.shields.io/badge/Donate-Bitcoin-ff9900?logo=bitcoin)](https://hawkim.github.io/Hawkim/donate-btc.html)
+<p align="center">
+  <a href="https://hawkim.github.io/Hawkim/donate-btc.html" title="Donate Bitcoin">
+    <img src="https://img.shields.io/badge/Donate-Bitcoin-ff9900?logo=bitcoin&logoColor=white" alt="Donate Bitcoin" />
+  </a>
+  &nbsp;
+  <a href="https://hawkim.github.io/Hawkim/donate-eth.html" title="Donate Ethereum">
+    <img src="https://img.shields.io/badge/Donate-Ethereum-627eea?logo=ethereum&logoColor=white" alt="Donate Ethereum" />
+  </a>
+  &nbsp;
+  <a href="https://hawkim.github.io/Hawkim/donate-sol.html" title="Donate Solana">
+    <img src="https://img.shields.io/badge/Donate-Solana-00FFA3?logo=solana&logoColor=white" alt="Donate Solana" />
+  </a>
+</p>
 
 ---
 
 ## 📫 Contact Me
 
-- **Email:** [neilhakim7@gmail.com](mailto:neilhakim7@gmail.com)  
-- **LinkedIn:** [Neil Al Hakim](https://www.linkedin.com/in/neil-al-hakim-39931a219/)
+<p align="center">
+  ✉️ <a href="mailto:neilhakim7@gmail.com">neilhakim7@gmail.com</a><br />
+  🔗 <a href="https://www.linkedin.com/in/neil-al-hakim-39931a219/">LinkedIn</a>
+</p>
 
 ---
 
 <div align="center">
-  <h3>Thanks for stopping by! 😊</h3>
-  <img src="https://komarev.com/ghpvc/?username=hawkim&style=plastic&color=red" alt="Profile Views"/>
+  <h3>Thanks for visiting!</h3>
+  <img src="https://komarev.com/ghpvc/?username=hawkim&style=plastic&color=red" alt="Profile views" />
 </div>
