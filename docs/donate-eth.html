@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8"/>
   <title>Donate ETH</title>
 
   <script>
-    window.onload = function() {
+    window.onload = () => {
       window.location.href = "ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b";
     };
     function copyAddress(btn) {
@@ -16,29 +16,22 @@
       btn.disabled = true;
     }
   </script>
-  <meta http-equiv="refresh" content="0;url=ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b" />
-
+  <meta http-equiv="refresh"
+        content="0;url=ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b"/>
   <style>
-    body {
-      font-family: sans-serif;
-      text-align: center;
-      padding: 2rem;
-    }
-    .network {
-      margin-bottom: 1rem;
-    }
-    .address-container {
-      margin: 1rem 0;
-    }
+    body { font-family: sans-serif; text-align: center; padding: 2rem; }
+    .logo { width: 64px; margin-bottom: 1rem; }
+    .network { font-size:1.1rem; margin-bottom: .5rem; }
+    .address-container { margin: 1rem 0; }
     code {
-      padding: 0.2em 0.4em;
+      padding: .2em .4em;
       background: #f4f4f4;
       border-radius: 4px;
       font-size: 1.1rem;
     }
     button {
-      margin-left: 0.5rem;
-      padding: 0.4em 0.8em;
+      margin-left: .5rem;
+      padding: .4em .8em;
       border: none;
       background: #627eea;
       color: white;
@@ -46,21 +39,14 @@
       cursor: pointer;
       font-size: 1rem;
     }
-    button:disabled {
-      cursor: default;
-    }
-    .qr {
-      margin-top: 1.5rem;
-    }
-    .logo {
-      width: 64px;
-      height: 64px;
-      margin-bottom: 1rem;
-    }
+    button:disabled { cursor: default; }
+    .qr { margin-top: 1.5rem; }
   </style>
 </head>
 <body>
-  <img class="logo" src="https://cryptologos.cc/logos/ethereum-eth-logo.png?v=014" alt="ETH Logo">
+  <img class="logo"
+       src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/info/logo.png"
+       alt="ETH Logo">
   <div class="network"><strong>NETWORK:</strong> ERC-20</div>
 
   <div class="address-container">
