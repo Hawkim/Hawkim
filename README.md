@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-  <strong>42 School Student</strong> • <strong>Software Engineer</strong> • <strong>Open-Source Advocate</strong>
+   • <strong>Software Developer</strong><strong>42 School Student</strong> • <strong>Open-Source Advocate</strong>
 </p>
 
 ---
@@ -40,7 +40,7 @@ I’m a passionate problem-solver and dedicated open-source contributor, current
 
 ## ☕ Crypto Donations
 
-Support my open-source work by choosing your preferred donation method:
+Support my open-source work with crypto
 
 <p align="center">
   <a href="https://hawkim.github.io/Hawkim/donate-btc.html" title="Donate Bitcoin">
