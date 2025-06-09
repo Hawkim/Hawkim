@@ -37,22 +37,27 @@ I’m a passionate problem-solver and dedicated open-source contributor, current
 </p>
 
 ---
-
 ## ☕ Crypto Donations
 
-Support my open-source work with crypto
+Support my open-source work:
 
 <p align="center">
-  <a href="https://hawkim.github.io/Hawkim/donate-btc.html" title="Donate Bitcoin">
-    <img src="https://img.shields.io/badge/Donate-Bitcoin-ff9900?logo=bitcoin&logoColor=white" alt="Donate Bitcoin" />
+  <a href="https://hawkim.github.io/Hawkim/donate-btc.html"
+     target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Donate-Bitcoin-ff9900?logo=bitcoin&logoColor=white"
+         alt="Donate Bitcoin" />
   </a>
   &nbsp;
-  <a href="https://hawkim.github.io/Hawkim/donate-eth.html" title="Donate Ethereum">
-    <img src="https://img.shields.io/badge/Donate-Ethereum-627eea?logo=ethereum&logoColor=white" alt="Donate Ethereum" />
+  <a href="https://hawkim.github.io/Hawkim/donate-eth.html"
+     target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Donate-Ethereum-627eea?logo=ethereum&logoColor=white"
+         alt="Donate Ethereum" />
   </a>
   &nbsp;
-  <a href="https://hawkim.github.io/Hawkim/donate-sol.html" title="Donate Solana">
-    <img src="https://img.shields.io/badge/Donate-Solana-00FFA3?logo=solana&logoColor=white" alt="Donate Solana" />
+  <a href="https://hawkim.github.io/Hawkim/donate-sol.html"
+     target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Donate-Solana-00FFA3?logo=solana&logoColor=white"
+         alt="Donate Solana" />
   </a>
 </p>
 

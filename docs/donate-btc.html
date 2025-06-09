@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <title>Donate BTC</title>
+
   <script>
     window.onload = function() {
       window.location.href = "bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw";
@@ -16,10 +17,25 @@
     }
   </script>
   <meta http-equiv="refresh" content="0;url=bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw" />
+
   <style>
-    body { font-family: sans-serif; text-align: center; padding: 2rem; }
-    .address-container { margin: 1.5rem 0; }
-    code { padding: 0.2em 0.4em; background: #f4f4f4; border-radius: 4px; }
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 2rem;
+    }
+    .network {
+      margin-bottom: 1rem;
+    }
+    .address-container {
+      margin: 1rem 0;
+    }
+    code {
+      padding: 0.2em 0.4em;
+      background: #f4f4f4;
+      border-radius: 4px;
+      font-size: 1.1rem;
+    }
     button {
       margin-left: 0.5rem;
       padding: 0.4em 0.8em;
@@ -28,24 +44,21 @@
       color: white;
       border-radius: 4px;
       cursor: pointer;
+      font-size: 1rem;
     }
-    button:disabled { cursor: default; }
-    .qr { margin-top: 1rem; }
+    button:disabled {
+      cursor: default;
+    }
+    .qr {
+      margin-top: 1.5rem;
+    }
+    .logo {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 1rem;
+    }
   </style>
 </head>
 <body>
-  <div class="address-container">
-    
-          <p>BTC</p>
-    <code>1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw</code>
-    <button onclick="copyAddress(this)">Copy</button>
-  </div>
-
-  <div class="qr">
-    <img
-      src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw"
-      alt="BTC QR Code"
-    />
-  </div>
-</body>
-</html>
+  <img class="logo" src="https://cryptologos.cc/logos/bitcoin-btc-logo.png?v=014" alt="BTC Logo">
+  <div
