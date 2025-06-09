@@ -59,7 +59,14 @@ Support my open-source work:
     <img src="https://img.shields.io/badge/Donate-Solana-00FFA3?logo=solana&logoColor=white"
          alt="Donate Solana" />
   </a>
+  &nbsp;
+  <a href="https://hawkim.github.io/Hawkim/donate-usdt.html"
+     target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Donate-USDT-26A17B?logo=tether&logoColor=white"
+         alt="Donate USDT (TRC-20)" />
+  </a>
 </p>
+
 
 ---
 
