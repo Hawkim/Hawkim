@@ -40,9 +40,9 @@ I’m a passionate developer with a knack for solving problems and contributing 
 
 Support my work:
 
-[![Donate $BTC](https://img.shields.io/badge/Donate-Bitcoin-ff9900?logo=bitcoin&logoColor=white)](https://<your-username>.github.io/<repo>/donate-btc.html)  
-[![Donate $ETH](https://img.shields.io/badge/Donate-Ethereum-627eea?logo=ethereum&logoColor=white)](https://<your-username>.github.io/<repo>/donate-eth.html)  
-[![Donate $SOL](https://img.shields.io/badge/Donate-Solana-00FFA3?logo=solana&logoColor=white)](https://<your-username>.github.io/<repo>/donate-sol.html)
+[![Donate $ETH](https://img.shields.io/badge/Donate-Ethereum-627eea?logo=ethereum)](https://hawkim.github.io/Hawkim/donate-eth.html)  
+[![Donate $SOL](https://img.shields.io/badge/Donate-Solana-00FFA3?logo=solana)](https://hawkim.github.io/Hawkim/donate-sol.html)  
+[![Donate $BTC](https://img.shields.io/badge/Donate-Bitcoin-ff9900?logo=bitcoin)](https://hawkim.github.io/Hawkim/donate-btc.html)
 
 ---
 
