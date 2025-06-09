@@ -38,11 +38,11 @@ I’m a passionate developer with a knack for solving problems and contributing 
 
 ## ☕ Crypto Donations
 
-If you’d like to support my open-source work, you can send a small donation in crypto:
+Support my work:
 
-[![Donate $BTC](https://img.shields.io/badge/Donate-Bitcoin-ff9900?logo=bitcoin&logoColor=white)](bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw)  
-[![Donate $ETH](https://img.shields.io/badge/Donate-Ethereum-627eea?logo=ethereum&logoColor=white)](ethereum:0x117716dd3dafca8a4636fc7a0dd16b37abdc593b)  
-[![Donate $SOL](https://img.shields.io/badge/Donate-Solana-00FFA3?logo=solana&logoColor=white)](solana:53ykwox91PdNcUERimAHgAMQQHkBkHkdHPeJb3S8MTLD)
+[![Donate $BTC](https://img.shields.io/badge/Donate-Bitcoin-ff9900?logo=bitcoin&logoColor=white)](https://<your-username>.github.io/<repo>/donate-btc.html)  
+[![Donate $ETH](https://img.shields.io/badge/Donate-Ethereum-627eea?logo=ethereum&logoColor=white)](https://<your-username>.github.io/<repo>/donate-eth.html)  
+[![Donate $SOL](https://img.shields.io/badge/Donate-Solana-00FFA3?logo=solana&logoColor=white)](https://<your-username>.github.io/<repo>/donate-sol.html)
 
 ---
 
