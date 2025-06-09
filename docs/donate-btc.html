@@ -1,13 +1,36 @@
+<!-- docs/donate-btc.html -->
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="refresh" content="0;url=bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw">
-    <title>Donate BTC</title>
-  </head>
-  <body>
-    <p>Redirecting… If nothing happens, 
-      <a href="bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw">click here</a>.
-    </p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Donate BTC</title>
+
+  <meta http-equiv="refresh" content="0;url=bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw" />
+  <script>
+    window.onload = function() {
+      window.location.href = "bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw";
+    };
+  </script>
+
+  <style>
+    body { font-family: sans-serif; text-align: center; padding: 2rem; }
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6em 1.2em;
+      background: #ff9900;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔄 Redirecting to your wallet…</h1>
+  <p>If nothing happens,</p>
+  <a class="button" href="bitcoin:1DZW3zfrRR9vgVJ6dJVA8G9XhAKoe3RZkw">
+    Click here to Donate BTC
+  </a>
+</body>
 </html>
