@@ -38,9 +38,9 @@ I’m a passionate software developer and problem-solver. Dedicated open-source 
 
 ---
 
-## ☕ Crypto Donations
+## 🪙🪙 Crypto Donations 🪙🪙
 
-Support my open-source work:
+If you'd like to support my open-source work:
 
 <p align="center">
   <a href="https://hawkim.github.io/Hawkim/donate-btc.html" target="_blank" rel="noopener noreferrer">
