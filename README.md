@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-   - <strong>Software Developer</strong> - <strong>42 School Student</strong> • <strong>Open-Source Advocate</strong>
+    <strong>Software Developer</strong> • <strong>42 School Student</strong> • <strong>Open-Source Advocate</strong>
 </p>
 
 ---
@@ -37,36 +37,30 @@ I’m a passionate problem-solver and dedicated open-source contributor, current
 </p>
 
 ---
+
 ## ☕ Crypto Donations
 
 Support my open-source work:
 
 <p align="center">
-  <a href="https://hawkim.github.io/Hawkim/donate-btc.html"
-     target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Donate-Bitcoin-ff9900?logo=bitcoin&logoColor=white"
-         alt="Donate Bitcoin" />
+  <a href="https://hawkim.github.io/Hawkim/donate-btc.html" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Donate-Bitcoin-ff9900?logo=bitcoin&logoColor=white" alt="Donate Bitcoin" />
   </a>
   &nbsp;
-  <a href="https://hawkim.github.io/Hawkim/donate-eth.html"
-     target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Donate-Ethereum-627eea?logo=ethereum&logoColor=white"
-         alt="Donate Ethereum" />
+  <a href="https://hawkim.github.io/Hawkim/donate-eth.html" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Donate-Ethereum-627eea?logo=ethereum&logoColor=white" alt="Donate Ethereum" />
   </a>
   &nbsp;
-  <a href="https://hawkim.github.io/Hawkim/donate-sol.html"
-     target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Donate-Solana-00FFA3?logo=solana&logoColor=white"
-         alt="Donate Solana" />
+  <a href="https://hawkim.github.io/Hawkim/donate-sol.html" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Donate-Solana-00FFA3?logo=solana&logoColor=white" alt="Donate Solana" />
   </a>
   &nbsp;
-  <a href="https://hawkim.github.io/Hawkim/donate-usdt.html"
-     target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Donate-USDT-26A17B?logo=tether&logoColor=white"
-         alt="Donate USDT (TRC-20)" />
+  <a href="https://hawkim.github.io/Hawkim/donate-usdt.html" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Donate-USDT-26A17B?logo=tether&logoColor=white" alt="Donate USDT (TRC-20)" />
   </a>
 </p>
 
+> **Tip:** To open donation pages in a new tab, please Ctrl+Click (or right-click and select “Open link in new tab”). GitHub strips `target="_blank"` in profile READMEs.
 
 ---
 
