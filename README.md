@@ -66,7 +66,7 @@ If you'd like to support my open-source work:
 
 <p align="center">
   ✉️ <a href="mailto:neilhakim7@gmail.com">neilhakim7@gmail.com</a><br />
-  🔗 <a href="https://www.linkedin.com/in/neil-al-hakim-39931a219/">LinkedIn</a>
+  🔗 <a href="https://www.linkedin.com/in/neilhakim/">LinkedIn</a>
 </p>
 
 ---
